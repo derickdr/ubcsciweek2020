@@ -6,5 +6,3 @@ Event information page for SciWeek 2020
 ### Function
 
 Information page regarding hosting, schedule, and organizing club.
-
-*
