@@ -15,6 +15,6 @@ function HomePage() {
             <SponsorSection />
         </>
     );
-}
+};
 
 export default HomePage;
