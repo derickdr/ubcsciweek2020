@@ -1,6 +1,6 @@
-# SciWeek 2020 via Science Undergraduate Society
+# SciWeek 2021 via Science Undergraduate Society
 
-Event information page for SciWeek 2020
+Event information page for SciWeek 2021
 
 ### Function
 
