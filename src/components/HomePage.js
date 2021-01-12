@@ -5,16 +5,18 @@ import SciWeekInformationSection from './SciWeekInformationSection';
 import ScheduleOverviewSection from './ScheduleOverviewSection';
 import SponsorSection from './SponsorSection';
 
-function HomePage() {
-    return (
-        <>
-            <NavBar />
-            <SciWeekSplash />
-            <SciWeekInformationSection />
-            <ScheduleOverviewSection />
-            <SponsorSection />
-        </>
-    );
+class HomePage extends Component {
+    render() {
+        return (
+            <>
+                <NavBar />
+                <SciWeekSplash />
+                <SciWeekInformationSection />
+                <ScheduleOverviewSection />
+                <SponsorSection />
+            </>
+        );
+    };
 };
 
 export default HomePage;

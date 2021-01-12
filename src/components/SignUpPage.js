@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
 
-function SignUpPage() {
+class SignUpPage extends Component {
+    render() {
+        return (
+            <div class='sign-up-page-container'>
 
+            </div>
+        );
+    };
 };
 
 export default SignUpPage;

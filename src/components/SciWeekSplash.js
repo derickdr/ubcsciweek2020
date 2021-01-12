@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
 
-function SciWeekSplash() {
-
+class SciWeekSplash extends Component {
+    render() {
+        return (
+            <div class='sciweek-splash-container'>
+                
+            </div>
+        );
+    };
 };
 
 export default SciWeekSplash;

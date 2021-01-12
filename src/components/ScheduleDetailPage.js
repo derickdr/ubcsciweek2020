@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
 
-function ScheduleDetailPage() {
+class ScheduleDetailPage extends Component {
+    render() {
+        return (
+            <div class='schedule-detail-page-container'>
 
+            </div>
+        );
+    };
 };
 
 export default ScheduleDetailPage;

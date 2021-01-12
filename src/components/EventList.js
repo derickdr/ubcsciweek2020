@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
 
-function EventList() {
+class EventList extends Component {
+    render() {
+        return ( 
+            <div class='events-container'>
 
+            </div>
+        );
+    };
 };
 
 export default EventList;
