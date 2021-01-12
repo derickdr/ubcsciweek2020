@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
 
-function ScheduleOverviewSection() {
-
+class ScheduleOverviewSection extends Component {
+    render() {
+        return (
+            <div class='schedule-overview-section-container'>
+                
+            </div>
+        );
+    };
 };
 
 export default ScheduleOverviewSection;
