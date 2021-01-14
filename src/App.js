@@ -5,8 +5,8 @@ import './styles/App.scss';
 
 function App() {
 	return (
-        // <HomePage />
-        <ComingSoon />
+        <HomePage />
+        // <ComingSoon />
 	);
 };
 
