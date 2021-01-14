@@ -1,6 +1,77 @@
+// CSS Reset
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+// Flexbox
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+}
+
 // Colors
 
-
+$color1: #32507A;
+$color2: #B2D0FB;
+$color3: #66A4FA;
+$color4: #57667A;
+$color5: #5283C7;
 
 // Components
 
@@ -10,38 +81,64 @@
     align-items: center;
 }
 
+// Coming Soon 
 .coming-soon-container {
-
+    h1, h2, h3 {
+        color: white;
+        padding: 1vw;
+        font-size: larger;
+    }
+    .coming-soon-content {
+        @extend .column;
+        justify-content: center;
+    }
+    .coming-soon-content {
+        div.row {
+            justify-content: center;
+        }
+    }
+    background-color: $color2;
+    max-width: 60vw;
+    margin: 0vw 20vw 0vw;
+    justify-content: center;
 }
 
+// Navbar
 .navbar-container {
     
 }
 
+// Splash
 .splash-container {
     
 }
 
+// About
 .about-container {
     
 }
 
+// Action Buttons
 .action-buttons {
     
 }
 
+// Schedule / Day of Activities
 .schedule-container {
     
 }
 
+// Day Detail
 .day-container {
     
 }
 
+// Registration Form
 .form-container {
     
 }
 
+// Sponsors Section
 .sponsor-container {
     
 }
