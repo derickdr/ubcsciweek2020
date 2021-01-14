@@ -51,7 +51,14 @@ table {
 
 // Flexbox
 
-.column {
+.half-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 50vw;
+}
+
+.full-column {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,7 +69,6 @@ table {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    min-width: 100vw;
 }
 
 // Colors
@@ -72,9 +78,10 @@ $color2: #B2D0FB;
 $color3: #66A4FA;
 $color4: #57667A;
 $color5: #5283C7;
+$color6: #eff5ff;
+$color7: #101316;
 
 // Components
-
 .coming-soon-container, .page-container, .homepage, .navbar-container, .splash-container, .about-container, .action-buttons, .schedule-container, .day-container, .form-container, .sponsor-container {
     display: flex;
     flex-direction: column;
@@ -83,12 +90,18 @@ $color5: #5283C7;
 
 // Coming Soon 
 .coming-soon-container {
+    background-color: $color2;
+    max-width: 60vw;
+    margin: 5vw 20vw 0vw;
+    padding: 10vh 0vw 20vh;
+    justify-content: center;
+    border-radius: 1vw;
     h1, h2, h3 {
         color: white;
         padding: 1vw;
     }
     .coming-soon-content {
-        @extend .column;
+        @extend .full-column;
         justify-content: center;
     }
     .coming-soon-content {
@@ -96,12 +109,6 @@ $color5: #5283C7;
             justify-content: center;
         }
     }
-    background-color: $color2;
-    max-width: 60vw;
-    margin: 5vw 20vw 0vw;
-    padding: 10vh 0vw 20vh;
-    justify-content: center;
-    border-radius: 1vw;
 }
 
 .coming-soon-header {
@@ -116,12 +123,47 @@ $color5: #5283C7;
     font-size: 4vw;
     padding: 1vw;
     border-radius: 0.5vw;
-    background-color: $color4;
+    background-color: $color6;
 }
 
 // Navbar
 .navbar-container {
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 5vw;
+    min-width: 100vw;
+    padding: 1vw 0vw 0vw;
+    background-color: $color6;
+    box-shadow: 0vh 1vw 4vw $color7;
+    position: sticky;
+}
+
+.nav-logo {
+    max-width: 20vw;
+    height: auto;
+}
+
+.nav-option-row {
+    @extend .row;
+    min-width: 40%;
+    justify-content: center;
+    padding: 0vh 5vw 0vh 10vw;
+}
+
+.logo-container {
+    size: 4vh;
+    padding: 0vh 8vw 0vh
+}
+
+.nav-button {
+    color: $color1;
+    padding: 1vh 1.5vw;
+    font-size: 2.5vw;
+}
+
+.nav-button:hover {
+    color: $color3;
 }
 
 // Splash
