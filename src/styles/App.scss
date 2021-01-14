@@ -101,6 +101,7 @@ $color5: #5283C7;
     margin: 5vw 20vw 0vw;
     padding: 10vh 0vw 20vh;
     justify-content: center;
+    border-radius: 1vw;
 }
 
 .coming-soon-header {
@@ -113,6 +114,9 @@ $color5: #5283C7;
 
 .coming-soon-content-title {
     font-size: 4vw;
+    padding: 1vw;
+    border-radius: 0.5vw;
+    background-color: $color4;
 }
 
 // Navbar
