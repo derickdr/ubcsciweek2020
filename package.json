@@ -12,8 +12,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    “predeploy”: “yarn run build”,
-    “deploy”: “gh-pages -d build -b master”,
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build -b master",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
