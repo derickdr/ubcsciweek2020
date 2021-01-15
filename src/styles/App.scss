@@ -106,7 +106,7 @@ $color8: #10213a;
 .coming-soon-container, .page-container, .homepage, .navbar-container, .splash-container, .about-container, .action-buttons, .schedule-container, .day-container, .form-container, .sponsor-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
 
 // Coming Soon 
@@ -339,16 +339,27 @@ $color8: #10213a;
     margin: 2vw;
 }
 
+.about-action-row{
+    @extend .action-row;
+    padding: 0;
+}
+
+.about-action-button-row {
+    @extend .row;
+    padding: 1vh;
+}
+
 .about-action-button {
     @extend .action-button;
-    margin: 3vw;
+    margin: 3vw 0vh 5vh;
 }
 
 // Schedule / Day of Activities
 .schedule-container {
     @extend .column;
+    justify-content: flex-start;
     min-height: 100vh;
-    padding: 3vw 0vw 0vw;
+    padding: 5vw 0vw 0vw;
     background-image: url('../images/teamwork.jpg');
     background-repeat: inherit;
     background-position: center;
@@ -357,21 +368,12 @@ $color8: #10213a;
     background-color: $color4;
 }
 
-.schedule-row {
-    @extend .row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 3vh 10vw;
-    box-sizing: border-box;
-}
-
 .monday-container, .tuesday-container, .wednesday-container, .thursday-container, .friday-container {
     @extend .column;
-    max-width: calc(15rem + 2vw);
-    padding: 1rem;
-    margin: 0vh 1vw 0vh;
-    justify-content: flex-start;
-    box-sizing: border-box;
+    min-height: 8vh;
+    max-width: 40rem;
+    padding: 0vh 5vw;
+    margin: 1rem;
 }
 
 .header {
@@ -381,7 +383,10 @@ $color8: #10213a;
 }
 
 .header-text {
+    font-size: calc(1.5rem + 0.5vw);
     font-weight: bold;
+    color: $color7;
+    padding: 1vh;
 }
 
 .day-content {
@@ -389,26 +394,36 @@ $color8: #10213a;
     z-index: 2;
 }
 
-.day-content-filler {
-    min-height: 4vh;
-}
-
 .event-name {
     @extend .italic;
+    font-size: 1.5rem;
+    padding: 0vh 0vw 1vh;
 }
 
 .event-details {
     position: relative;
     left: 1rem;
+    font-size: 1.25rem;
+    padding: 1vh;
 }
 
 .panel3 {
     position: relative;
-    top: -20vh;
+    top: -43vh;
     background-color: $color2;
     opacity: 0.3;
-    min-height: 20vh;
-    min-width: calc(17rem + 2vw);
+    min-height: 60vh;
+    width: 48vh;
+    z-index: 1;
+}
+
+.panel4 {
+    position: relative;
+    top: -31vh;
+    background-color: $color2;
+    opacity: 0.3;
+    min-height: 40vh;
+    min-width: 48vh;
     z-index: 1;
 }
 
