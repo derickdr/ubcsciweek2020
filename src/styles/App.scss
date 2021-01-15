@@ -51,6 +51,12 @@ table {
 
 // Flexbox
 
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .half-column {
     display: flex;
     flex-direction: column;
@@ -133,7 +139,7 @@ $color7: #101316;
     justify-content: center;
     min-height: 5vw;
     min-width: 100vw;
-    padding: 1vw 0vw 0vw;
+    padding: 0.5vw 0vw 0vw;
     background-color: $color6;
     box-shadow: 0vh 1vw 4vw $color7;
     position: sticky;
@@ -147,8 +153,9 @@ $color7: #101316;
 .nav-option-row {
     @extend .row;
     min-width: 40%;
+    min-height: 100%;
     justify-content: center;
-    padding: 0vh 5vw 0vh 10vw;
+    padding: 0vh 10vw 0vh 0vw;
 }
 
 .logo-container {
@@ -157,8 +164,10 @@ $color7: #101316;
 }
 
 .nav-button {
+    @extend .column;
+    justify-content: flex-start;
     color: $color1;
-    padding: 1vh 1.5vw;
+    padding: 0vh 1.5vw 1vh;
     font-size: 2.5vw;
 }
 
@@ -168,7 +177,15 @@ $color7: #101316;
 
 // Splash
 .splash-container {
-    
+    @extend .column;
+    min-width: 100vw;
+    min-height: 30vw;
+    background-image: url('https://sus.ubc.ca/wp-content/uploads/2019/10/DSC_0375-scaled.jpg');
+    background-repeat: inherit;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: $color4;
 }
 
 // About
