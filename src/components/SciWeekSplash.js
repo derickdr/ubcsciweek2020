@@ -4,7 +4,14 @@ class SciWeekSplash extends Component {
     render() {
         return (
             <div class='splash-container'>
-                test
+                <div class='splash-column'>
+                    <div class='sci-week-header-container'>
+                        <h1 class='sci-week-header'>Super Sci Week 2021</h1>
+                    </div>
+                    <div class='sus-subheader-container'>
+                        <h2 class='sus-name'>Science Undergraduate Society</h2>
+                    </div>
+                </div>
             </div>
         );
     };
