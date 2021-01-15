@@ -77,6 +77,20 @@ table {
     justify-content: center;
 }
 
+// Font styles
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
 // Colors
 
 $color1: #32507A;
@@ -143,6 +157,7 @@ $color8: #10213a;
     padding: 0.5vw 0vw 0vw;
     background-color: $color6;
     box-shadow: 0vh 1vw 4vw $color7;
+    box-sizing: border-box;
     position: fixed;
     top: 0;
     z-index: 10;
@@ -270,7 +285,7 @@ $color8: #10213a;
 .action-button:hover {
     background-color: $color2;
     color: $color8;
-    border-radius: 0.2vw;
+    border-radius: 0.2rem;
     transition: 0.3s;
 }
 
@@ -280,10 +295,48 @@ $color8: #10213a;
 
 // About
 .about-container {
-    @extend .row;
-    min-width: 100vw;
+    @extend .column;
     min-height: 100vh;
-    background-color: $color2;
+    background-color: $color6;
+}
+
+.about-content-header {
+    @extend .row;
+    padding: 6vh 0vw 0vh;
+}
+
+.about-header-text {
+    font-size: 5rem;
+    text-align: center;
+    color: $color7
+}
+
+.about-content {
+    @extend .row;
+    margin: 1vw 10vw;
+    padding: 1vh;
+    width: 80vw;
+    box-sizing: border-box;
+    background-color: #e2ecfd;
+}
+
+.about-content-text {
+    justify-content: flex-start;
+    color: $color7;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 0.5rem;
+}
+
+.separator-row {
+    @extend .row;
+}
+
+.separator-line {
+    background-color: $color8;
+    height: 0.15rem;
+    width: 25rem;
+    margin: 2vw;
 }
 
 // Schedule / Day of Activities
