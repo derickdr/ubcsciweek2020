@@ -357,6 +357,61 @@ $color8: #10213a;
     background-color: $color4;
 }
 
+.schedule-row {
+    @extend .row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3vh 10vw;
+    box-sizing: border-box;
+}
+
+.monday-container, .tuesday-container, .wednesday-container, .thursday-container, .friday-container {
+    @extend .column;
+    max-width: calc(15rem + 2vw);
+    padding: 1rem;
+    margin: 0vh 1vw 0vh;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.header {
+    @extend .row;
+    justify-content: flex-start;
+    z-index: 2;
+}
+
+.header-text {
+    font-weight: bold;
+}
+
+.day-content {
+    padding: 0.5vh 0vw 0vh;
+    z-index: 2;
+}
+
+.day-content-filler {
+    min-height: 4vh;
+}
+
+.event-name {
+    @extend .italic;
+}
+
+.event-details {
+    position: relative;
+    left: 1rem;
+}
+
+.panel3 {
+    position: relative;
+    top: -20vh;
+    background-color: $color2;
+    opacity: 0.3;
+    min-height: 20vh;
+    min-width: calc(17rem + 2vw);
+    z-index: 1;
+}
+
 // Day Detail
 .day-container {
     @extend .column;
