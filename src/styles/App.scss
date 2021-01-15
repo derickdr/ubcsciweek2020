@@ -86,6 +86,7 @@ $color4: #57667A;
 $color5: #5283C7;
 $color6: #eff5ff;
 $color7: #101316;
+$color8: #10213a;
 
 // Components
 .coming-soon-container, .page-container, .homepage, .navbar-container, .splash-container, .about-container, .action-buttons, .schedule-container, .day-container, .form-container, .sponsor-container {
@@ -173,6 +174,7 @@ $color7: #101316;
 
 .nav-button:hover {
     color: $color3;
+    transition: 0.3s;
 }
 
 // Splash
@@ -180,7 +182,7 @@ $color7: #101316;
     @extend .column;
     min-width: 100vw;
     min-height: 40vw;
-    padding: 2.5vw 0vw;
+    padding: 5vw 0vw 0vw;
     background-image: url('../images/people-star.png');
     background-repeat: inherit;
     background-position: center;
@@ -193,7 +195,7 @@ $color7: #101316;
     @extend .column;
     position: relative;
     box-sizing: border-box;
-    padding: 0vw 0vw 20vw;
+    padding: 0vw 0vw 10vw;
 }
 
 .sciweek-header-container {
@@ -239,9 +241,9 @@ $color7: #101316;
 
 .panel2 {
     position: absolute;
-    top: 0;
-    min-width: 10vw;
-    min-height: 10vw;
+    top: -4vw;
+    min-width: 40vw;
+    min-height: 5vw;
     background-color: $color2;
     opacity: 0.3;
 }
@@ -258,10 +260,19 @@ $color7: #101316;
 
 .action-button-row {
     @extend .row;
+    z-index: 2;
 }
 
 .action-button {
-    padding: 1vw;
+    padding: 0.5vw;
+    margin: 10vw 2vw 0vw;
+}
+
+.action-button:hover {
+    background-color: $color2;
+    color: $color8;
+    border-radius: 0.2vw;
+    transition: 0.3s;
 }
 
 .action-button-text {
