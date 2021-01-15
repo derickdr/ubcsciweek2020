@@ -137,39 +137,38 @@ $color8: #10213a;
 .navbar-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    min-height: 5vw;
+    justify-content: space-around;
+    min-height: 10vh;
     min-width: 100vw;
     padding: 0.5vw 0vw 0vw;
     background-color: $color6;
     box-shadow: 0vh 1vw 4vw $color7;
-    position: sticky;
+    position: fixed;
+    top: 0;
+    z-index: 10;
 }
 
 .nav-logo {
-    max-width: 20vw;
+    max-width: 10rem;
     height: auto;
 }
 
 .nav-option-row {
     @extend .row;
-    min-width: 40%;
-    min-height: 100%;
     justify-content: center;
-    padding: 0vh 10vw 0vh 0vw;
+    padding: 0vh 8vw 0vh 0vw;
 }
 
 .logo-container {
     size: 4vh;
-    padding: 0vh 8vw 0vh
 }
 
 .nav-button {
     @extend .column;
     justify-content: flex-start;
     color: $color1;
-    padding: 0vh 1.5vw 1vh;
-    font-size: 2.5vw;
+    padding: 1vw;
+    font-size: 1.75rem;
 }
 
 .nav-button:hover {
@@ -180,9 +179,8 @@ $color8: #10213a;
 // Splash
 .splash-container {
     @extend .column;
-    min-width: 100vw;
-    min-height: 40vw;
-    padding: 5vw 0vw 0vw;
+    min-height: 100vh;
+    padding: 3vw 0vw 0vw;
     background-image: url('../images/people-star.png');
     background-repeat: inherit;
     background-position: center;
@@ -193,9 +191,9 @@ $color8: #10213a;
 
 .splash-column {
     @extend .column;
+    height: 100vh;
     position: relative;
     box-sizing: border-box;
-    padding: 0vw 0vw 10vw;
 }
 
 .sciweek-header-container {
@@ -207,7 +205,8 @@ $color8: #10213a;
 .sci-week-header {
     position: relative;
     color: white;
-    font-size: 7vw;
+    font-size: 6.5rem;
+    text-align: center;
     z-index: 2;
 }
 
@@ -220,7 +219,8 @@ $color8: #10213a;
     position: absolute;
     color: white;
     padding: 1vw 0vw 0vw;
-    font-size: 3vw;
+    font-size: 2rem;
+    text-align: center;
     opacity: 1;
 }
 
@@ -232,18 +232,18 @@ $color8: #10213a;
 
 .panel1 {
     position: absolute;
-    top: -5vw;
-    min-width: 40vw;
-    min-height: 10vw;
+    top: -6rem;
+    min-width: 50vw;
+    min-height: 17vh;
     background-color: $color2;
     opacity: 0.3;
 }
 
 .panel2 {
     position: absolute;
-    top: -4vw;
-    min-width: 40vw;
-    min-height: 5vw;
+    top: -4rem;
+    min-width: 65vw;
+    min-height: 10vh;
     background-color: $color2;
     opacity: 0.3;
 }
@@ -251,7 +251,7 @@ $color8: #10213a;
 .action-row {
     @extend .row;
     position: relative;
-    padding: 5vw 0vw 0vw;
+    padding: 5rem 0vw 0vw;
 }
 
 .action-column {
@@ -265,7 +265,7 @@ $color8: #10213a;
 
 .action-button {
     padding: 0.5vw;
-    margin: 10vw 2vw 0vw;
+    margin: 12vw 2vw 0vw;
 }
 
 .action-button:hover {
@@ -276,12 +276,15 @@ $color8: #10213a;
 }
 
 .action-button-text {
-    font-size: 2vw;
+    font-size: 2.75rem;
 }
 
 // About
 .about-container {
-    
+    @extend .row;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: $color2;
 }
 
 // Schedule / Day of Activities
