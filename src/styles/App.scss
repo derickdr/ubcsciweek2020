@@ -182,7 +182,7 @@ $color8: #10213a;
     justify-content: flex-start;
     color: $color1;
     padding: 1vw;
-    font-size: 2rem;
+    font-size: calc(1rem + 1.5vw);
 }
 
 .nav-button:hover {
@@ -219,7 +219,7 @@ $color8: #10213a;
 .sci-week-header {
     position: relative;
     color: white;
-    font-size: 6.5rem;
+    font-size: calc(5rem + 1.5vw);
     text-align: center;
     z-index: 2;
 }
@@ -233,7 +233,7 @@ $color8: #10213a;
     position: absolute;
     color: white;
     padding: 1vw 0vw 0vw;
-    font-size: 2rem;
+    font-size: calc(1.5rem + 1vw);
     text-align: center;
     opacity: 1;
 }
@@ -247,8 +247,8 @@ $color8: #10213a;
 .panel1 {
     position: absolute;
     top: -6rem;
-    min-width: 50vw;
-    min-height: 17vh;
+    min-width: 48vw;
+    min-height: 18vh;
     background-color: $color2;
     opacity: 0.3;
 }
@@ -290,7 +290,7 @@ $color8: #10213a;
 }
 
 .action-button-text {
-    font-size: 2.75rem;
+    font-size: 2.5rem;
 }
 
 // About
