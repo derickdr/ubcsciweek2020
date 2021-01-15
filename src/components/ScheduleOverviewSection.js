@@ -177,7 +177,7 @@ class ScheduleOverviewSection extends Component {
                         </div>
                         <div class='day-content'>
                             <h1 class='event-name'>Serving Up Justice with Inga Lam</h1>
-                            <h2 class='event-details'>(cooking session)</h2>
+                            <h2 class='event-details'>(Cooking session)</h2>
                             <h2 class='event-details'>Time: TBA</h2>
                             <h2 class='event-details'>Where: <a href='https://zoom.us/j/93135322512'>Zoom</a></h2>
                             <div class='event-action-row'>

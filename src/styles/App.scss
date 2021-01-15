@@ -410,7 +410,7 @@ $color8: #10213a;
 
 .event-action-row {
     @extend .row;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .event-action-column {
@@ -429,8 +429,8 @@ $color8: #10213a;
 }
 
 .event-action-button-text {
-    font-size: 1.25rem;
-    color: $color6;
+    font-size: 1.5rem;
+    color: $color7;
 }
 
 .panel3 {
