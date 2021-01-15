@@ -179,10 +179,10 @@ $color7: #101316;
 .splash-container {
     @extend .column;
     min-width: 100vw;
-    min-height: 30vw;
-    background-image: url('https://sus.ubc.ca/wp-content/uploads/2019/10/DSC_0375-scaled.jpg');
+    min-height: 40vw;
+    background-image: url('../images/people-star.png');
     background-repeat: inherit;
-    background-position: center center;
+    background-position: center;
     background-attachment: fixed;
     background-size: cover;
     background-color: $color4;
