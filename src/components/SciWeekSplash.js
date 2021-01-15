@@ -9,7 +9,12 @@ class SciWeekSplash extends Component {
                         <h1 class='sci-week-header'>Super Sci Week 2021</h1>
                     </div>
                     <div class='sus-subheader-container'>
-                        <h2 class='sus-name'>Science Undergraduate Society</h2>
+                        <div class='row'>
+                            <h2 class='sus-name'>Science Undergraduate Society</h2>
+                        </div>
+                    </div>
+                    <div class='panel-row'>
+                        <div class='panel1'></div>
                     </div>
                 </div>
             </div>

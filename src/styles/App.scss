@@ -180,12 +180,61 @@ $color7: #101316;
     @extend .column;
     min-width: 100vw;
     min-height: 40vw;
+    padding: 2.5vw 0vw;
     background-image: url('../images/people-star.png');
     background-repeat: inherit;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     background-color: $color4;
+}
+
+.splash-column {
+    @extend .column;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0vw 0vw 20vw;
+}
+
+.sciweek-header-container {
+    position: relative;
+    padding: 0vw 0vw 20vw;
+    z-index: 3;
+}
+
+.sci-week-header {
+    position: relative;
+    color: white;
+    font-size: 7vw;
+    z-index: 2;
+}
+
+.sus-subheader-container {
+    @extend .column;
+    z-index: 2;
+}
+
+.sus-name {
+    position: absolute;
+    color: white;
+    padding: 1vw 0vw 0vw;
+    font-size: 3vw;
+    opacity: 1;
+}
+
+.panel-row {
+    @extend .row;
+    position: relative;
+    z-index: 1;
+}
+
+.panel1 {
+    position: absolute;
+    top: -5vw;
+    min-width: 40vw;
+    min-height: 10vw;
+    background-color: $color2;
+    opacity: 0.3;
 }
 
 // About
