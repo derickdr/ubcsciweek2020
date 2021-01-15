@@ -53,9 +53,13 @@ class SciWeekInformationSection extends Component {
                         by themselves! 
                     </p>
                 </div>
-                <div class='about-action-button-row'>
-                    <div class='about-action-button'>
-                        <h1 class='action-button-text'>register</h1>
+                <div class='about-action-row'>
+                    <div class='action-column'>
+                        <div class='about-action-button-row'>
+                            <div class='about-action-button'>
+                                <h1 class='action-button-text'>Register</h1>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

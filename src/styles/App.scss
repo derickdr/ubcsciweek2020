@@ -106,7 +106,7 @@ $color8: #10213a;
 .coming-soon-container, .page-container, .homepage, .navbar-container, .splash-container, .about-container, .action-buttons, .schedule-container, .day-container, .form-container, .sponsor-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
 
 // Coming Soon 
@@ -246,7 +246,7 @@ $color8: #10213a;
 
 .panel1 {
     position: absolute;
-    top: -6rem;
+    top: -5rem;
     min-width: 48vw;
     min-height: 18vh;
     background-color: $color2;
@@ -339,27 +339,136 @@ $color8: #10213a;
     margin: 2vw;
 }
 
+.about-action-row{
+    @extend .action-row;
+    padding: 0;
+}
+
+.about-action-button-row {
+    @extend .row;
+    padding: 1vh;
+}
+
 .about-action-button {
     @extend .action-button;
-    margin: 3vw;
+    margin: 3vw 0vh 5vh;
 }
 
 // Schedule / Day of Activities
 .schedule-container {
-    
+    @extend .column;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 5vw 0vw 0vw;
+    background-image: url('../images/teamwork.jpg');
+    background-repeat: inherit;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: $color4;
+}
+
+.monday-container, .tuesday-container, .wednesday-container, .thursday-container, .friday-container {
+    @extend .column;
+    min-height: 8vh;
+    max-width: 35rem;
+    padding: 0vh 5vw;
+    margin: 1rem;
+}
+
+.header {
+    @extend .row;
+    justify-content: flex-start;
+    z-index: 2;
+}
+
+.header-text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: $color6;
+    padding: 1vh;
+}
+
+.day-content {
+    padding: 1rem;
+    margin: 0rem 0rem 0.5rem;
+    z-index: 2;
+}
+
+.event-name {
+    font-size: 1.5rem;
+    color: $color7;
+    padding: 0vh 0vw 1vh;
+}
+
+.event-details {
+    position: relative;
+    left: 1rem;
+    font-size: 1.25rem;
+    padding: 1vh;
+}
+
+.event-action-row {
+    @extend .row;
+    justify-content: flex-end;
+}
+
+.event-action-column {
+    @extend .column;
+}
+
+.event-action-button-row {
+    @extend .action-button-row;
+    padding: 0;
+}
+
+.event-action-button {
+    @extend .action-button;
+    padding: 0.5rem;
+    margin: 0;
+}
+
+.event-action-button-text {
+    font-size: 1.25rem;
+    color: $color6;
+}
+
+.panel3 {
+    position: relative;
+    top: -53vh;
+    background-color: $color2;
+    opacity: 0.2;
+    min-height: 60vh;
+    width: 47vh;
+    z-index: 1;
+}
+
+.panel4 {
+    position: relative;
+    top: -27.5vh;
+    background-color: $color2;
+    opacity: 0.2;
+    min-height: 40vh;
+    min-width: 42vh;
+    z-index: 1;
 }
 
 // Day Detail
 .day-container {
-    
+    @extend .column;
+}
+
+// Contact Information
+.contact-container {
+    @extend .column;
 }
 
 // Registration Form
 .form-container {
-    
+    @extend .column;
 }
 
 // Sponsors Section
 .sponsor-container {
-    
+    @extend .column;
 }
