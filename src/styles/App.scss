@@ -339,6 +339,11 @@ $color8: #10213a;
     margin: 2vw;
 }
 
+.about-action-button {
+    @extend .action-button;
+    margin: 3vw;
+}
+
 // Schedule / Day of Activities
 .schedule-container {
     
