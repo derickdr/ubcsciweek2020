@@ -50,12 +50,30 @@ class ScheduleOverviewSection extends Component {
                             <h2 class='event-details'>(Virtual escape room)</h2>
                             <h2 class='event-details'>Time: 11:00pm-4:00pm PST</h2>
                             <h2 class='event-details'>Where: TBA</h2>
+                            <div class='event-action-row'>
+                                <div class='event-action-column'>
+                                    <div class='event-action-button-row'>
+                                        <div class='event-action-button'>
+                                            <h1 class='event-action-button-text'>Sign Up</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class='day-content'>
                             <h1 class='event-name'>(Yo)galactic Stretching</h1>
                             <h2 class='event-details'>(Yoga session)</h2>
                             <h2 class='event-details'>Time: 5:00pm-7:00pm PST</h2>
                             <h2 class='event-details'>Where: <a href='https://zoom.us/j/98134029112'>Zoom</a></h2>
+                            <div class='event-action-row'>
+                                <div class='event-action-column'>
+                                    <div class='event-action-button-row'>
+                                        <div class='event-action-button'>
+                                            <h1 class='event-action-button-text'>Sign Up</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -72,6 +90,15 @@ class ScheduleOverviewSection extends Component {
                             <h2 class='event-details'>(Painting session w/ AMS Paint Club)</h2>
                             <h2 class='event-details'>Time: 7:30pm-8:30pm PST</h2>
                             <h2 class='event-details'>Where: <a href='https://zoom.us/j/99217554824'>Zoom</a></h2>
+                            <div class='event-action-row'>
+                                <div class='event-action-column'>
+                                    <div class='event-action-button-row'>
+                                        <div class='event-action-button'>
+                                            <h1 class='event-action-button-text'>Sign Up</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -88,12 +115,30 @@ class ScheduleOverviewSection extends Component {
                             <h2 class='event-details'>(Bullet journaling w/ Alex from @lexiesdesk)</h2>
                             <h2 class='event-details'>Time: 3:00pm-4:00pm PST</h2>
                             <h2 class='event-details'>Where: <a href='https://zoom.us/j/97887065823'>Zoom</a></h2>
+                            <div class='event-action-row'>
+                                <div class='event-action-column'>
+                                    <div class='event-action-button-row'>
+                                        <div class='event-action-button'>
+                                            <h1 class='event-action-button-text'>Sign Up</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class='day-content'>
                             <h1 class='event-name'>Megamind Trivia</h1>
                             <h2 class='event-details'>(Trivia night w/ Astronomy club)</h2>
                             <h2 class='event-details'>Time: 7:00pm-8:30pm PST</h2>
                             <h2 class='event-details'>Where: <a href='https://us02web.zoom.us/j/87080734958'>Zoom</a></h2>
+                            <div class='event-action-row'>
+                                <div class='event-action-column'>
+                                    <div class='event-action-button-row'>
+                                        <div class='event-action-button'>
+                                            <h1 class='event-action-button-text'>Sign Up</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -107,9 +152,18 @@ class ScheduleOverviewSection extends Component {
                         </div>
                         <div class='day-content'>
                             <h1 class='event-name'>Clubs League</h1>
-                            <h2 class='event-details'>(clubs day)</h2>
+                            <h2 class='event-details'>(Clubs day)</h2>
                             <h2 class='event-details'>Time: TBA</h2>
                             <h2 class='event-details'>Where: TBA</h2>
+                            <div class='event-action-row'>
+                                <div class='event-action-column'>
+                                    <div class='event-action-button-row'>
+                                        <div class='event-action-button'>
+                                            <h1 class='event-action-button-text'>Sign Up</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -126,12 +180,30 @@ class ScheduleOverviewSection extends Component {
                             <h2 class='event-details'>(cooking session)</h2>
                             <h2 class='event-details'>Time: TBA</h2>
                             <h2 class='event-details'>Where: <a href='https://zoom.us/j/93135322512'>Zoom</a></h2>
+                            <div class='event-action-row'>
+                                <div class='event-action-column'>
+                                    <div class='event-action-button-row'>
+                                        <div class='event-action-button'>
+                                            <h1 class='event-action-button-text'>Sign Up</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class='day-content'>
                             <h1 class='event-name'>Galactical Idol</h1>
                             <h2 class='event-details'>(UBC Science talent show)</h2>
                             <h2 class='event-details'>Time: TBA</h2>
                             <h2 class='event-details'>Where (location of all videos): <a href='https://www.youtube.com/channel/UC-3akI0PgZVdoONZtOpVZ0A'>YouTube</a></h2>
+                            <div class='event-action-row'>
+                                <div class='event-action-column'>
+                                    <div class='event-action-button-row'>
+                                        <div class='event-action-button'>
+                                            <h1 class='event-action-button-text'>Sign Up</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
