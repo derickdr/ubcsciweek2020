@@ -403,7 +403,6 @@ $color8: #10213a;
 
 .event-details {
     position: relative;
-    left: 1rem;
     font-size: 1.25rem;
     padding: 1vh;
 }
@@ -438,7 +437,7 @@ $color8: #10213a;
     top: -53vh;
     background-color: $color2;
     opacity: 0.2;
-    min-height: 60vh;
+    min-height: 55vh;
     width: 47vh;
     z-index: 1;
 }
