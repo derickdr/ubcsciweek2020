@@ -40,10 +40,27 @@ class ScheduleOverviewSection extends Component {
     render() {
         return (
             <div class='schedule-container'>
-                
-                <div class=''>
-                </div>
+                <div class='schedule-row1'>
+                    <div class='monday-container'>
 
+                    </div>
+                    <div class='tuesday-container'>
+
+                    </div>
+                </div>
+                <div class='schedule-row2'>
+                    <div class='wednesday-container'>
+
+                    </div>
+                    <div class='thursday-container'>
+
+                    </div>
+                </div>
+                <div class='schedule-row3'>
+                    <div class='friday-container'>
+
+                    </div>
+                </div>
             </div>
         );
     };
