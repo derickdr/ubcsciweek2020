@@ -237,13 +237,39 @@ $color7: #101316;
     opacity: 0.3;
 }
 
-// About
-.about-container {
-    
+.panel2 {
+    position: absolute;
+    top: 0;
+    min-width: 10vw;
+    min-height: 10vw;
+    background-color: $color2;
+    opacity: 0.3;
 }
 
-// Action Buttons
-.action-buttons {
+.action-row {
+    @extend .row;
+    position: relative;
+    padding: 5vw 0vw 0vw;
+}
+
+.action-column {
+    @extend .column;
+}
+
+.action-button-row {
+    @extend .row;
+}
+
+.action-button {
+    padding: 1vw;
+}
+
+.action-button-text {
+    font-size: 2vw;
+}
+
+// About
+.about-container {
     
 }
 
