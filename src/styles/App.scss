@@ -149,8 +149,7 @@ $color8: #10213a;
 }
 
 .nav-logo {
-    max-width: 10rem;
-    height: auto;
+    height: 3.5rem;
 }
 
 .nav-option-row {
@@ -168,7 +167,7 @@ $color8: #10213a;
     justify-content: flex-start;
     color: $color1;
     padding: 1vw;
-    font-size: 1.75rem;
+    font-size: 2rem;
 }
 
 .nav-button:hover {
@@ -241,7 +240,7 @@ $color8: #10213a;
 
 .panel2 {
     position: absolute;
-    top: -4rem;
+    top: -4.25rem;
     min-width: 65vw;
     min-height: 10vh;
     background-color: $color2;
