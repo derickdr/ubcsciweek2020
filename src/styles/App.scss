@@ -246,7 +246,7 @@ $color8: #10213a;
 
 .panel1 {
     position: absolute;
-    top: -6rem;
+    top: -5rem;
     min-width: 48vw;
     min-height: 18vh;
     background-color: $color2;
@@ -346,20 +346,33 @@ $color8: #10213a;
 
 // Schedule / Day of Activities
 .schedule-container {
-
+    @extend .column;
+    min-height: 100vh;
+    padding: 3vw 0vw 0vw;
+    background-image: url('../images/teamwork.jpg');
+    background-repeat: inherit;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: $color4;
 }
 
 // Day Detail
 .day-container {
+    @extend .column;
+}
 
+// Contact Information
+.contact-container {
+    @extend .column;
 }
 
 // Registration Form
 .form-container {
-    
+    @extend .column;
 }
 
 // Sponsors Section
 .sponsor-container {
-    
+    @extend .column;
 }
