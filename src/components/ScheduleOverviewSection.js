@@ -43,7 +43,7 @@ class ScheduleOverviewSection extends Component {
                 <div class='row'>
                     <div class='monday-container'>
                         <div class='header'>
-                            <h1 class='header-text'>Monday, January 18th</h1>
+                            <h1 class='header-text'>18 / 01 - Monday</h1>
                         </div>
                         <div class='day-content'>
                             <h1 class='event-name'>Operation Stone-Seeker</h1>
@@ -65,11 +65,11 @@ class ScheduleOverviewSection extends Component {
                 <div class='row'>
                     <div class='tuesday-container'>
                         <div class='header'>
-                            <h1 class='header-text'>Tuesday, January 19th</h1>
+                            <h1 class='header-text'>19 / 01 - Tuesday</h1>
                         </div>
                         <div class='day-content'>
                             <h1 class='event-name'>Bob Ross Painting</h1>
-                            <h2 class='event-details'>(painting session w/ AMS Paint Club)</h2>
+                            <h2 class='event-details'>(Painting session w/ AMS Paint Club)</h2>
                             <h2 class='event-details'>Time: 7:30pm-8:30pm PST</h2>
                             <h2 class='event-details'>Where: <a href='https://zoom.us/j/99217554824'>Zoom</a></h2>
                         </div>
@@ -81,7 +81,7 @@ class ScheduleOverviewSection extends Component {
                 <div class='row'>
                     <div class='wednesday-container'>
                         <div class='header'>
-                            <h1 class='header-text'>Wednesday, January 20th</h1>
+                            <h1 class='header-text'>20 / 01 - Wednesday</h1>
                         </div>
                         <div class='day-content'>
                             <h1 class='event-name'>“Catch a Bullet” Journaling</h1>
@@ -91,7 +91,7 @@ class ScheduleOverviewSection extends Component {
                         </div>
                         <div class='day-content'>
                             <h1 class='event-name'>Megamind Trivia</h1>
-                            <h2 class='event-details'>(trivia night w/ Astronomy club)</h2>
+                            <h2 class='event-details'>(Trivia night w/ Astronomy club)</h2>
                             <h2 class='event-details'>Time: 7:00pm-8:30pm PST</h2>
                             <h2 class='event-details'>Where: <a href='https://us02web.zoom.us/j/87080734958'>Zoom</a></h2>
                         </div>
@@ -103,7 +103,7 @@ class ScheduleOverviewSection extends Component {
                 <div class='row'>
                     <div class='thursday-container'>
                         <div class='header'>
-                            <h1 class='header-text'>Thursday, January 21th</h1>
+                            <h1 class='header-text'>21 / 01 - Thursday</h1>
                         </div>
                         <div class='day-content'>
                             <h1 class='event-name'>Clubs League</h1>
@@ -119,7 +119,7 @@ class ScheduleOverviewSection extends Component {
                 <div class='row'>
                     <div class='friday-container'>
                         <div class='header'>
-                            <h1 class='header-text'>Friday, January 22th</h1>
+                            <h1 class='header-text'>22 / 01 - Friday</h1>
                         </div>
                         <div class='day-content'>
                             <h1 class='event-name'>Serving Up Justice with Inga Lam</h1>

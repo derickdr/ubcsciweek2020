@@ -371,7 +371,7 @@ $color8: #10213a;
 .monday-container, .tuesday-container, .wednesday-container, .thursday-container, .friday-container {
     @extend .column;
     min-height: 8vh;
-    max-width: 40rem;
+    max-width: 35rem;
     padding: 0vh 5vw;
     margin: 1rem;
 }
@@ -383,9 +383,9 @@ $color8: #10213a;
 }
 
 .header-text {
-    font-size: calc(1.5rem + 0.5vw);
+    font-size: 1.5rem;
     font-weight: bold;
-    color: $color7;
+    color: $color6;
     padding: 1vh;
 }
 
@@ -395,7 +395,6 @@ $color8: #10213a;
 }
 
 .event-name {
-    @extend .italic;
     font-size: 1.5rem;
     padding: 0vh 0vw 1vh;
 }
@@ -411,7 +410,7 @@ $color8: #10213a;
     position: relative;
     top: -43vh;
     background-color: $color2;
-    opacity: 0.3;
+    opacity: 0.2;
     min-height: 60vh;
     width: 48vh;
     z-index: 1;
@@ -421,7 +420,7 @@ $color8: #10213a;
     position: relative;
     top: -31vh;
     background-color: $color2;
-    opacity: 0.3;
+    opacity: 0.2;
     min-height: 40vh;
     min-width: 48vh;
     z-index: 1;
