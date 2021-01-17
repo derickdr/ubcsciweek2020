@@ -139,7 +139,7 @@ class ScheduleOverviewSection extends Component {
                                 <div class='event-action-column'>
                                     <div class='event-action-button-row'>
                                         <div class='event-action-button'>
-                                            <a class='event-action-button-text' href='https://www.facebook.com/events/207985471053075/' target='_blank' rel='noopener noreferrer'>Sign Up</a>
+                                            <a class='event-action-button-text' href='https://fb.me/e/3IWSZ1fvU' target='_blank' rel='noopener noreferrer'>Sign Up</a>
                                         </div>
                                     </div>
                                 </div>
