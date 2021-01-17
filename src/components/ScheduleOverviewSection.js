@@ -159,7 +159,7 @@ class ScheduleOverviewSection extends Component {
                             <h1 class='event-name'>Clubs League</h1>
                             <h2 class='event-details'>(Clubs day)</h2>
                             <h2 class='event-details'>Time: 12:30-3:30 PM PST</h2>
-                            <h2 class='event-details'>Where: Here!</h2>
+                            <h2 class='event-details'>Where: WIP</h2>
                             <div class='event-action-row'>
                                 <div class='event-action-column'>
                                     <div class='event-action-button-row'>
