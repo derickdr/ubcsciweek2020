@@ -280,6 +280,8 @@ $color8: #10213a;
 .action-button {
     padding: 0.5vw;
     margin: 12vw 2vw 0vw;
+    border: solid $color8 0.25vh;
+    border-radius: 0.2rem;
 }
 
 .action-button:hover {
@@ -368,12 +370,43 @@ $color8: #10213a;
     background-color: $color4;
 }
 
+.schedule-header {
+    @extend .column;
+    padding: 2vh;
+}
+
+.schedule-header-text {
+    font-size: 5rem;
+    color: $color6;
+}
+
 .monday-container, .tuesday-container, .wednesday-container, .thursday-container, .friday-container {
     @extend .column;
+    position: relative;
     min-height: 8vh;
     max-width: 35rem;
-    padding: 0vh 5vw;
-    margin: 1rem;
+    padding: 2vh 5vw;
+    margin: 2vh;
+}
+
+.tuesday-container {
+    position: relative;
+    top: -45vh;
+}
+
+.wednesday-container {
+    position: relative;
+    top: -70vh;
+}
+
+.thursday-container {
+    position: relative;
+    top: -115vh;
+}
+
+.friday-container {
+    position: relative;
+    top: -130vh;
 }
 
 .header {
@@ -432,9 +465,9 @@ $color8: #10213a;
     color: $color7;
 }
 
-.panel3 {
+.panel3-1 {
     position: relative;
-    top: -53vh;
+    top: -55vh;
     background-color: $color2;
     opacity: 0.2;
     min-height: 55vh;
@@ -442,13 +475,43 @@ $color8: #10213a;
     z-index: 1;
 }
 
-.panel4 {
+.panel3-2 {
     position: relative;
-    top: -27.5vh;
+    top: -125.5vh;
+    background-color: $color2;
+    opacity: 0.2;
+    min-height: 55vh;
+    width: 47vh;
+    z-index: 1;
+}
+
+.panel3-3 {
+    position: relative;
+    top: -185.5vh;
+    background-color: $color2;
+    opacity: 0.2;
+    min-height: 55vh;
+    width: 47vh;
+    z-index: 1;
+}
+
+.panel4-1 {
+    position: relative;
+    top: -40.5rem;
     background-color: $color2;
     opacity: 0.2;
     min-height: 40vh;
-    min-width: 42vh;
+    min-width: 47vh;
+    z-index: 0;
+}
+
+.panel4-2 {
+    position: relative;
+    top: -145vh;
+    background-color: $color2;
+    opacity: 0.2;
+    min-height: 40vh;
+    min-width: 47vh;
     z-index: 1;
 }
 
