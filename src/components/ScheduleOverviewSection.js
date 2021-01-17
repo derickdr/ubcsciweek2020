@@ -118,7 +118,7 @@ class ScheduleOverviewSection extends Component {
                         <div class='day-content'>
                             <h1 class='event-name'>“Catch a Bullet” Journaling</h1>
                             <h2 class='event-details'>(Bullet journaling w/ Alex from @lexiesdesk)</h2>
-                            <h2 class='event-details'>Time: 3:00pm-4:00 PM PST</h2>
+                            <h2 class='event-details'>Time: 3:00-4:00 PM PST</h2>
                             <h2 class='event-details'>Where: <a href='https://zoom.us/j/97887065823' target='_blank' rel='noopener noreferrer'>Zoom</a></h2>
                             <div class='event-action-row'>
                                 <div class='event-action-column'>
@@ -133,7 +133,7 @@ class ScheduleOverviewSection extends Component {
                         <div class='day-content'>
                             <h1 class='event-name'>Megamind Trivia</h1>
                             <h2 class='event-details'>(Trivia night w/ Astronomy club)</h2>
-                            <h2 class='event-details'>Time: 7:00pm-8:30 PM PST</h2>
+                            <h2 class='event-details'>Time: 7:00-8:30 PM PST</h2>
                             <h2 class='event-details'>Where: <a href='https://us02web.zoom.us/j/87080734958' target='_blank' rel='noopener noreferrer'>Zoom</a></h2>
                             <div class='event-action-row'>
                                 <div class='event-action-column'>
