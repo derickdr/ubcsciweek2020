@@ -53,8 +53,8 @@ class ScheduleOverviewSection extends Component {
                         <div class='day-content'>
                             <h1 class='event-name'>Operation Stone-Seeker</h1>
                             <h2 class='event-details'>(Virtual escape room)</h2>
-                            <h2 class='event-details'>Time: 11:00-4:00 PM PST</h2>
-                            <h2 class='event-details'>Where: TBA</h2>
+                            <h2 class='event-details'>Time: 11:00 AM-4:00 PM PST</h2>
+                            <h2 class='event-details'>Where: <a href='https://zoom.us/j/92291748382' target='_blank' rel='noopener noreferrer'>Zoom</a></h2>
                             <div class='event-action-row'>
                                 <div class='event-action-column'>
                                     <div class='event-action-button-row'>
@@ -68,7 +68,7 @@ class ScheduleOverviewSection extends Component {
                         <div class='day-content'>
                             <h1 class='event-name'>(Yo)galactic Stretching</h1>
                             <h2 class='event-details'>(Yoga session)</h2>
-                            <h2 class='event-details'>Time: 11:00 AM-12:00 PM PST</h2>
+                            <h2 class='event-details'>Time: 5:00-6:00 PM PST</h2>
                             <h2 class='event-details'>Where: <a href='https://zoom.us/j/98134029112' target='_blank' rel='noopener noreferrer'>Zoom</a></h2>
                             <div class='event-action-row'>
                                 <div class='event-action-column'>
@@ -93,7 +93,7 @@ class ScheduleOverviewSection extends Component {
                         <div class='day-content'>
                             <h1 class='event-name'>Bob Ross Painting</h1>
                             <h2 class='event-details'>(Painting session w/ AMS Paint Club)</h2>
-                            <h2 class='event-details'>Time: 7:30pm-8:30 PM PST</h2>
+                            <h2 class='event-details'>Time: 7:30-8:30 PM PST</h2>
                             <h2 class='event-details'>Where: <a href='https://zoom.us/j/99217554824' target='_blank' rel='noopener noreferrer'>Zoom</a></h2>
                             <div class='event-action-row'>
                                 <div class='event-action-column'>
