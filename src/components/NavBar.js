@@ -10,16 +10,16 @@ class NavBar extends Component{
                 </div>
                 <div class='nav-option-row'>
                     <div class='nav-button'>
-                        <h2 class='home'>Home</h2>
+                        <h2 class='home'>HOME</h2>
                     </div>
                     <div class='nav-button'>
-                        <h2 class='events'>About</h2>
+                        <h2 class='events'>ABOUT</h2>
                     </div>
                     <div class='nav-button'>
-                        <h2 class='about'>Events</h2>
+                        <h2 class='about'>EVENTS</h2>
                     </div>
                     <div class='nav-button'>
-                        <h2 class='contact'>Club Day</h2>
+                        <h2 class='contact'>CLUBS</h2>
                     </div>
                 </div>
             </div>
