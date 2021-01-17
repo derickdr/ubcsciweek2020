@@ -3,6 +3,7 @@ import NavBar from './NavBar';
 import SciWeekSplash from './SciWeekSplash';
 import SciWeekInformationSection from './SciWeekInformationSection';
 import ScheduleOverviewSection from './ScheduleOverviewSection';
+import ContactSection from './ContactSection';
 import SponsorSection from './SponsorSection';
 
 class HomePage extends Component {
@@ -13,6 +14,7 @@ class HomePage extends Component {
                 <SciWeekSplash />
                 <SciWeekInformationSection />
                 <ScheduleOverviewSection />
+                <ContactSection />
                 <SponsorSection />
             </>
         );

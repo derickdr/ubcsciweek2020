@@ -20,10 +20,7 @@ class SciWeekSplash extends Component {
                         <div class='action-column'>
                            <div class='action-button-row'>
                                 <div class='action-button'>
-                                    <h1 class='action-button-text'>events</h1>
-                                </div>
-                                <div class='action-button'>
-                                    <h1 class='action-button-text'>register</h1>
+                                    <h1 class='action-button-text'>Events</h1>
                                 </div>
                            </div>
                             <div class='panel-row'>
