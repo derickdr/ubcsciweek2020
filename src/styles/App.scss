@@ -183,6 +183,7 @@ $color8: #10213a;
     color: $color1;
     padding: 1vw;
     font-size: calc(1rem + 1.5vw);
+    cursor: pointer;
 }
 
 .nav-button:hover {
@@ -282,6 +283,7 @@ $color8: #10213a;
     margin: 12vw 2vw 0vw;
     border: solid $color8 0.25vh;
     border-radius: 0.2rem;
+    cursor: pointer;
 }
 
 .action-button:hover {
