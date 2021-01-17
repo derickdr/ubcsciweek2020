@@ -5,6 +5,11 @@ import SciWeekInformationSection from './SciWeekInformationSection';
 import ScheduleOverviewSection from './ScheduleOverviewSection';
 import ContactSection from './ContactSection';
 import SponsorSection from './SponsorSection';
+import { BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
 
 class HomePage extends Component {
     render() {
