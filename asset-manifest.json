@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.9ca39899.chunk.css",
-    "main.js": "/static/js/main.070a8f14.chunk.js",
-    "main.js.map": "/static/js/main.070a8f14.chunk.js.map",
+    "main.js": "/static/js/main.c8105bb7.chunk.js",
+    "main.js.map": "/static/js/main.c8105bb7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.68c05965.js",
     "runtime-main.js.map": "/static/js/runtime-main.68c05965.js.map",
     "static/js/2.7d2539c8.chunk.js": "/static/js/2.7d2539c8.chunk.js",
@@ -10,12 +10,13 @@
     "index.html": "/index.html",
     "static/css/main.9ca39899.chunk.css.map": "/static/css/main.9ca39899.chunk.css.map",
     "static/js/2.7d2539c8.chunk.js.LICENSE.txt": "/static/js/2.7d2539c8.chunk.js.LICENSE.txt",
+    "static/media/SUSLogoSmall.cd0ad77f.png": "/static/media/SUSLogoSmall.cd0ad77f.png",
     "static/media/App.scss": "/static/media/teamwork.690f3b55.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.68c05965.js",
     "static/js/2.7d2539c8.chunk.js",
     "static/css/main.9ca39899.chunk.css",
-    "static/js/main.070a8f14.chunk.js"
+    "static/js/main.c8105bb7.chunk.js"
   ]
 }
