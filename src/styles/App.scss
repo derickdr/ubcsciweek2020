@@ -376,8 +376,9 @@ $color8: #10213a;
 }
 
 .schedule-header-text {
-    font-size: 5rem;
+    font-size: calc(4rem + 1vw);
     color: $color6;
+    text-align: center;
 }
 
 .monday-container, .tuesday-container, .wednesday-container, .thursday-container, .friday-container {

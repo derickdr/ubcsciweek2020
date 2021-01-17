@@ -4,7 +4,6 @@ class ContactSection extends Component {
     render() {
         return ( 
             <div class='contact-container'>
-                oh my dearest lord
             </div>
         );
     };
