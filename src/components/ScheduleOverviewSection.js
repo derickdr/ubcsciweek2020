@@ -41,6 +41,11 @@ class ScheduleOverviewSection extends Component {
         return (
             <div class='schedule-container'>
                 <div class='row'>
+                    <div class='schedule-header'>
+                        <h1 class='schedule-header-text'>Week of Events</h1>
+                    </div>
+                </div>
+                <div class='row'>
                     <div class='monday-container'>
                         <div class='header'>
                             <h1 class='header-text'>18 / 01 - Monday</h1>
@@ -78,7 +83,7 @@ class ScheduleOverviewSection extends Component {
                     </div>
                 </div>
                 <div class='row'>
-                    <div class='panel3'></div>
+                    <div class='panel3-1'></div>
                 </div>
                 <div class='row'>
                     <div class='tuesday-container'>
@@ -103,7 +108,7 @@ class ScheduleOverviewSection extends Component {
                     </div>
                 </div>
                 <div class='row'>
-                    <div class='panel4'></div>
+                    <div class='panel4-1'></div>
                 </div>
                 <div class='row'>
                     <div class='wednesday-container'>
@@ -143,7 +148,7 @@ class ScheduleOverviewSection extends Component {
                     </div>
                 </div>
                 <div class='row'>
-                    <div class='panel3'></div>
+                    <div class='panel3-2'></div>
                 </div>
                 <div class='row'>
                     <div class='thursday-container'>
@@ -168,7 +173,7 @@ class ScheduleOverviewSection extends Component {
                     </div>
                 </div>
                 <div class='row'>
-                    <div class='panel4'></div>
+                    <div class='panel4-2'></div>
                 </div>
                 <div class='row'>
                     <div class='friday-container'>
@@ -177,7 +182,7 @@ class ScheduleOverviewSection extends Component {
                         </div>
                         <div class='day-content'>
                             <h1 class='event-name'>Serving Up Justice with Inga Lam</h1>
-                            <h2 class='event-details'>(cooking session)</h2>
+                            <h2 class='event-details'>(Cooking session)</h2>
                             <h2 class='event-details'>Time: TBA</h2>
                             <h2 class='event-details'>Where: <a href='https://zoom.us/j/93135322512'>Zoom</a></h2>
                             <div class='event-action-row'>
@@ -208,7 +213,7 @@ class ScheduleOverviewSection extends Component {
                     </div>
                 </div>
                 <div class='row'>
-                    <div class='panel3'></div>
+                    <div class='panel3-3'></div>
                 </div>
             </div>
         );
